@@ -22,26 +22,10 @@ let numbernumberone
 let numbernumberminusone
 
 
-let algae1
-let algae2
-let algae3
-
-let testmodel
-
-let music 
 
 let m 
 
-function preload(){
-	algae1 = loadImage('assets/algae1.jpg')
-	algae2 = loadImage('assets/algae2.jpg')
-	algae3 = loadImage('assets/algae3.jpg')
 
-	testmodel = loadModel('assets/walnut.obj')
-
-    music = loadSound('assets/RIP.mp3')
-
-}
 function setup (){
 	fft = new p5.FFT();
     //music.amp(0.2);
@@ -362,14 +346,14 @@ class Boid {
   
 	  push()
 	  translate(this.pos.x, this.pos.y, this.pos.z);
-	  //texture(algae1)
+	  
 	  specularMaterial(61.2, 67.8, 100.0)
 	  
 	  sphere(20 +sin(frameCount/30)*35); // A sphere where the boid is
 	  
 	  translate(this.pos.x + 10 +sin(frameCount/20)*25, this.pos.y + 10 +sin(frameCount/20)*25, this.pos.z + 10 +sin(frameCount/20)*25);
 	  specularMaterial(93.3, 38.4, 56.1)
-	  //texture(algae2)
+	  
 	  sphere(20 +sin(frameCount/10)*15)
 	  
 	 
