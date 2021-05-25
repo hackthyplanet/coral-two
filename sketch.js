@@ -37,10 +37,10 @@ function setup (){
 	let p5Canvas;
 	if (downloadCanvas) {
     p5Canvas = createCanvas(windowWidth -10, windowHeight -10, WEBGL);
-    frameRate(3);
+    frameRate(5);
   } else {
     p5Canvas = createCanvas(windowWidth -10, windowHeight -10, WEBGL);
-	  frameRate(3)// You can change the resolution here
+	  frameRate(5)// You can change the resolution here
   }
 
   // Declaration of depth (z axis), unit vectors, and the camera
