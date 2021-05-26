@@ -13,7 +13,7 @@ let downloadCanvas = false; // Make it true to lower frameRate and download the 
 let boid
 //let boidsSlider, perceptionSlider, alignmentSlider, separationSlider; // Sliders
 let boidsP, perceptionP, alignmentP, cohesionP, separationP; // Paragraphs
-let startingBoids = 200; // Amount of boid at the start of the sketch
+let startingBoids = 100; // Amount of boid at the start of the sketch
 let startingPerception = 90; // Perception radius at the start of the sketch
 let t = 0; // Counts the frame from the time boids go out of the middle of space
 
