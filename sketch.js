@@ -35,7 +35,7 @@ function setup (){
 	let p5Canvas;
 	if (downloadCanvas) {
     p5Canvas = createCanvas(windowWidth -1, windowHeight -1, WEBGL);
-    frameRate(5);
+    frameRate(3);
   } else {
     p5Canvas = createCanvas(windowWidth -1, windowHeight -1, WEBGL); // You can change the resolution here
   }
